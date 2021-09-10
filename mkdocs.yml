@@ -1,0 +1,15 @@
+site_name: Documentations
+theme:
+  name: material
+  palette:
+    primary: brown
+  features:
+    - navigation.indexes
+
+nav:
+  - Home: index.md
+  - Dir1: 
+    - dir1-md: dir1/dir1.md
+    - dir11: 
+      - dir11-md: dir1/dir11/dir11.md
+  - Dir2: dir2/dir2.md
